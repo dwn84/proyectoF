@@ -1,6 +1,6 @@
 <?php
 
-	include "inicio.php";
+	require "inicio.php";
 	if($_SESSION['rolUsuario']!='administrador'):
 		header('Location: inicio.php');
 	else:	
